@@ -16,7 +16,6 @@ def generate_keys():
     with open("private_key.pem", "wb") as priv_file:
         priv_file.write(private_key.private_bytes(
             encoding=serialization.Encoding.PEM,
-            format=serialization.Encoding.PEM,
             format=serialization.PrivateFormat.PKCS8,
             encryption_algorithm=serialization.NoEncryption(),
         ))
