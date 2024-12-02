@@ -1,15 +1,26 @@
-# Certificate-Based-File-Encryption
-Features
-Key Pair Generation:
+# File Encryption and Decryption Project
 
-Generate RSA keys (public/private) for encryption and decryption.
-Certificate Signing:
+## Features
 
-Create a mock Certificate Authority (CA) to sign public keys as certificates.
-File Encryption:
+### Key Pair Generation
+- Generate RSA keys (public/private) for encryption and decryption.
 
-Encrypt a file using the recipient’s public key.
-File Decryption:
+### Certificate Signing
+- Create a mock Certificate Authority (CA) to sign public keys as certificates.
 
-Decrypt the file using the private key, with certificate validation.
+# File Encryption and Decryption Project
+
+## Features
+
+### Key Pair Generation
+- Generate RSA keys (public/private) for encryption and decryption.
+
+### Certificate Signing
+- Create a mock Certificate Authority (CA) to sign public keys as certificates.
+
+### File Encryption
+- Encrypt a file using the recipient’s public key.
+
+### File Decryption
+- Decrypt the file using the private key, with certificate validation.
 
